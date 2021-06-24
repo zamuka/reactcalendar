@@ -1,0 +1,18 @@
+.year {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-content: stretch;
+}
+
+.month-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+.month-list > * {
+  width: 24%;
+}
